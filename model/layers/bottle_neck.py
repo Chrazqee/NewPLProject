@@ -77,4 +77,3 @@ if __name__ == "__main__":
     spp_bottleneck = SPPBottleNeck(channels=2)
     output = spp_bottleneck(input_)
     print(output.shape)
-
