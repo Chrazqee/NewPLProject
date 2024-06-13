@@ -1,0 +1,8 @@
+dataset_name: NCaltech101
+bins: 3
+data_path: "/home/chrazqee/datasets/NCaltech101_dvs_img"
+split_ratio: [0.6, 0.2, 0.2]
+num_workers_train: 8
+num_workers_val: 8
+batch_size_train: 24
+batch_size_val: 24

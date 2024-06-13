@@ -1,0 +1,3 @@
+validation:
+  val_check_interval: 100
+  check_val_every_n_epoch:

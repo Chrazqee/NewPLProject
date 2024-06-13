@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  # 文件夹: yaml 不带后缀的文件名
+  - dataset_config: dataset_config
+  - network_config: network_config
+  # 同级目录下的 yaml 不带后缀的文件名
+  - training
+  - validation
+
+
+dataset_name: NCaltech101

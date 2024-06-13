@@ -1,0 +1,10 @@
+training:
+  lr_scheduler:
+    use: True
+  hardware:
+    num_workers:
+      train: 8
+      eval: 8
+    dist_backend: nccl
+    gpus: [1]
+
